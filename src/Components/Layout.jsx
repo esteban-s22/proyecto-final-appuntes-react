@@ -30,9 +30,7 @@ export const Layout = () => {
         <span class="lines"></span>
       </div>
       <div class="profile-and-links">
-        PROFILE 
         
-        MENU LIST
         <ul class="links-list">
            <Link to = "/"> 
           <li class="links">
@@ -51,14 +49,9 @@ export const Layout = () => {
           </li></Link>
          
           <li class="links">
-            <a href=""><i class="fa-solid fa-address-card"></i>About</a>
+            <a href=""><i class="fa-solid fa-upload"></i>Subir Apuntes</a>
           </li>
-          <li class="links">
-            <a href=""><i class="fa-solid fa-envelope"></i>Contact</a>
-          </li>
-          <li class="links">
-            <a href=""><i class="fa-solid fa-gear"></i>Settings</a>
-          </li>
+         
         </ul>
       </div>
       

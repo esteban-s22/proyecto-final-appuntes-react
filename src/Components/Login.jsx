@@ -55,7 +55,7 @@ export const Login = () => {
                 <form onSubmit={handleSubmit} className=" text-center">
                     
                 <h1 style={{ color: "green", background:"White", textalign: "center" }}>APPUNTES</h1>
-                <h2 style={{ color: "White", background:"Blue",textalign:"center" }}>Bienvenidos</h2>
+                <h2 style={{ color: "White", background:"Blue",textalign:"center" }}>Bienvenid@s</h2>
           
             {error && <p>{error}</p>}
             
