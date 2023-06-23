@@ -119,14 +119,7 @@ const DropdownMenu = ({ lang, setLang, user, logout, setDropdownOpen }) => {
             >
               <div className="menu-item-title">{Strings.settings[lang]}</div>
             </DropdownItem>
-            <DropdownItem
-              leftIcon="world"
-              rightIcon="chevron-right"
-              goToMenu="language"
-              setActiveMenu={setActiveMenu}
-            >
-              <div className="menu-item-title">{Strings.language[lang]}</div>
-            </DropdownItem>
+           
             <DropdownItem
               leftIcon="palette"
               onClick={changeTheme}

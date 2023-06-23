@@ -9,7 +9,7 @@ import Threads from './Threads';
 import Uploads from './Uploads';
 
 const Home = () => {
-  document.title = 'Forum'
+  document.title = 'APPUNTES'
   const { setPostType, setFabVisible, lang } = useContext(StoreContext)
   const [init, setInit] = useState(true)
 

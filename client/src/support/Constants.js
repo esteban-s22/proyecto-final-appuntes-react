@@ -3,152 +3,152 @@ const BACKEND = 'http://localhost:8000'
 const Strings = {
   'goToHomePage': {
     ru: 'Вернуться на главную страницу',
-    en: 'Go to home page',
+    en: 'Ir al inicio',
     jp: 'ホームページへ'
   },
   'error404PageNotFound': {
     ru: 'Ошибка 404. Страница не найдена',
-    en: 'Error 404. Page not found',
+    en: 'Error 404. Pagina no encontrada',
     jp: 'エラー404ページが見つかりません'
   },
   'home': {
     ru: 'Главная',
-    en: 'Home',
+    en: 'Inicio',
     jp: 'ホームページ'
   },
   'notFound': {
     ru: 'Не найдено',
-    en: 'Not Found',
+    en: 'No encontrado',
     jp: '見つかりません'
   },
   'youAreBanned': {
     ru: 'Вы забанены',
-    en: 'You are banned',
+    en: 'Fuiste baneado',
     jp: 'あなたは禁止されています'
   },
   'users': {
     ru: 'Пользователи',
-    en: 'Users',
+    en: 'Usuarios',
     jp: 'ユーザー'
   },
   'newest': {
     ru: 'Новые',
-    en: 'Newest',
+    en: 'Lo más nuevo',
     jp: '最新'
   },
   'oldest': {
     ru: 'Старые',
-    en: 'Oldest',
+    en: 'Lo más antiguo',
     jp: '最古'
   },
   'online': {
     ru: 'Онлайн',
-    en: 'Online',
+    en: 'En linea',
     jp: 'オンライン'
   },
   'noUsersYet': {
     ru: 'Пока нет пользователей',
-    en: 'No users yet',
+    en: 'Sin usuarios aún',
     jp: 'まだユーザーはいません'
   },
   'noAdminsYet': {
     ru: 'Пока нет админов',
-    en: 'No admins yet',
+    en: 'Sin administradores aún',
     jp: 'まだ管理者はいません'
   },
   'unableToDisplayUsers': {
     ru: 'Невозможно отобразить пользователей',
-    en: 'Unable to display users',
+    en: 'No se pueden mostrar los usuarios',
     jp: 'ユーザーを表示できません'
   },
   'profile': {
     ru: 'Профиль',
-    en: 'Profile',
+    en: 'Perfil',
     jp: 'プロフィール'
   },
   'lastSeen': {
     ru: 'Был онлайн',
-    en: 'Last seen',
+    en: 'Vistos ultimamente',
     jp: '最後に見た'
   },
   'settings': {
     ru: 'Настройки',
-    en: 'Settings',
+    en: 'Configuracion',
     jp: '設定'
   },
   'unableToDisplayUserProfile': {
     ru: 'Невозможно отобразить профиль',
-    en: 'Unable to display user profile',
+    en: 'No se pueden mostrar perfiles',
     jp: 'ユーザープロフィールを表示できません'
   },
   'profileSettings': {
     ru: 'Настройки профиля',
-    en: 'Profile settings',
+    en: 'Configuracion de perfil',
     jp: 'プロフィール設定'
   },
   'uploadProfilePicture': {
     ru: 'Загрузка изображения профиля',
-    en: 'Upload profile picture',
+    en: 'Subir foto de perfil',
     jp: 'プロフィール画像'
   },
   'accepted': {
     ru: 'Разрешены',
-    en: 'Accepted',
+    en: 'Aceptado',
     jp: '承認済み'
   },
   'maxFilesCount': {
     ru: 'Максимальное количество файлов',
-    en: 'Max files count',
+    en: 'Numero maximo de archivos',
     jp: '最大ファイル数'
   },
   'maxSize': {
     ru: 'Максимальный размер',
-    en: 'Max size',
+    en: 'Tamaño maximo',
     jp: '最大サイズ'
   },
   'upload': {
     ru: 'Загрузка',
-    en: 'Upload',
+    en: 'Subir',
     jp: 'アップロード'
   },
   'popularBoards': {
     ru: 'Популярные доски',
-    en: 'Popular boards',
+    en: 'Tablones de anuncios populares',
     jp: '人気のボード'
   },
   'all': {
     ru: 'Все',
-    en: 'All',
+    en: 'Todo',
     jp: 'すべて'
   },
   'recentlyThreads': {
     ru: 'Недавние треды',
-    en: 'Recently threads',
+    en: 'Publicaciones recientes',
     jp: '最近のスレッド'
   },
   'noThreadsYet': {
     ru: 'Пока нет тредов',
-    en: 'No threads yet',
+    en: 'Ninguna publicacion aún',
     jp: 'スレッドはまだありません'
   },
   'filesUploads': {
     ru: 'Файлы/Загрузки',
-    en: 'Files/Uploads',
+    en: 'Archivos/Subidas',
     jp: 'ファイル/アップロード'
   },
   'noUploadsYet': {
     ru: 'Пока нет загрузок',
-    en: 'No uploads yet',
+    en: 'Sin subidas aún',
     jp: 'まだアップロードはありません'
   },
   'thread': {
     ru: 'Тред',
-    en: 'Thread',
+    en: 'Publicaciones',
     jp: 'スレッド'
   },
   'allBoards': {
     ru: 'Все доски',
-    en: 'All boards',
+    en: 'Facultades',
     jp: 'すべてのボード'
   },
   'error': {
@@ -158,22 +158,22 @@ const Strings = {
   },
   'threadNotFound': {
     ru: 'Тред не найден',
-    en: 'Thread not found',
+    en: 'Publicacion no encontrado',
     jp: 'スレッドが見つかりません'
   },
   'noAnswersYet': {
     ru: 'Пока нет ответов',
-    en: 'No answers yet',
+    en: 'Sin respuestas aún',
     jp: 'まだ答えはありません'
   },
   'boards': {
     ru: 'Доски',
-    en: 'Boards',
+    en: 'Tablones de anuncios',
     jp: 'ボード'
   },
   'default': {
     ru: 'По умолчанию',
-    en: 'Default',
+    en: 'Por defecto',
     jp: 'デフォルトでは'
   },
   'popular': {
@@ -183,57 +183,57 @@ const Strings = {
   },
   'recentlyAnswered': {
     ru: 'Недавно отвеченные',
-    en: 'Recently answered',
+    en: 'Respondidos recientemente',
     jp: '最近答えした'
   },
   'byNewest': {
     ru: 'По новизне',
-    en: 'By newest',
+    en: 'Por el más nuevo',
     jp: '最新のもの'
   },
   'byAnswersCount': {
     ru: 'По числу ответов',
-    en: 'By answers count',
+    en: 'Por recuento de respuestas',
     jp: '答え数で'
   },
   'noBoardsYet': {
     ru: 'Пока нет досок',
-    en: 'No boards yet',
+    en: 'Sin tablones aún',
     jp: 'ボードはまだありません'
   },
   'unableToDisplayBoards': {
     ru: 'Невозможно отобразить доски',
-    en: 'Unable to display boards',
+    en: 'No se pueden mostrar los tablones',
     jp: 'ボードを表示できません'
   },
   'board': {
     ru: 'Доска',
-    en: 'Board',
+    en: 'Tablon',
     jp: 'ボード'
   },
   'unableToDisplayBoard': {
     ru: 'Невозможно отобразить доску',
-    en: 'Unable to display board',
+    en: 'No se puede mostrar el tablon',
     jp: 'ボードを表示できません'
   },
   'unableToDisplayThreads': {
     ru: 'Невозможно отобразить треды',
-    en: 'Unable to display threads',
+    en: 'No se puede mostrar las publicaciones',
     jp: 'スレッドを表示できません'
   },
   'unableToDisplayAnswers': {
     ru: 'Невозможно отобразить ответы',
-    en: 'Unable to display answers',
+    en: 'No se puede mostrar respuestas',
     jp: '答えを表示できません'
   },
   'adminDashboard': {
     ru: 'Панель администратора',
-    en: 'Admin dashboard',
+    en: 'Panel de administracion',
     jp: '管理ダッシュボード'
   },
   'dashboard': {
     ru: 'Панель управления',
-    en: 'Dashboard',
+    en: 'Panel',
     jp: 'ダッシュボード'
   },
   'admins': {
@@ -243,7 +243,7 @@ const Strings = {
   },
   'reports': {
     ru: 'Жалобы',
-    en: 'Reports',
+    en: 'Reportes',
     jp: '苦情'
   },
   'bans': {
@@ -253,843 +253,843 @@ const Strings = {
   },
   'manageBoards': {
     ru: 'Управление досками',
-    en: 'Manage boards',
+    en: 'Gestion de Tablones',
     jp: 'ボードを管理する'
   },
   'createNewBoard': {
     ru: 'Создать новую доску',
-    en: 'Create new board',
+    en: 'Crear un nuevo tablon',
     jp: '新しいボードを作成する'
   },
   'enterShortName': {
     ru: 'Введите короткое имя',
-    en: 'Enter short name',
+    en: 'Insertar nombre corto',
     jp: '短い名前を入力してください'
   },
   'enterTitle': {
     ru: 'Введите название',
-    en: 'Enter title',
+    en: 'Insertar titulo',
     jp: 'タイトルを入力してください'
   },
   'enterPosition': {
     ru: 'Введите позицию',
-    en: 'Enter position',
+    en: 'Insertar posición',
     jp: '位置を入力してください'
   },
   'thread1': {
     ru: 'тред',
-    en: 'thread',
+    en: 'publicacion',
     jp: 'スレッド'
   },
   'thread2': {
     ru: 'треда',
-    en: 'threads',
+    en: 'publicacion',
     jp: 'スレッド'
   },
   'thread3': {
     ru: 'тредов',
-    en: 'threads',
+    en: 'publicacion',
     jp: 'スレッド'
   },
   'answer1': {
     ru: 'ответ',
-    en: 'answer',
+    en: 'respuesta',
     jp: '答え'
   },
   'answer2': {
     ru: 'ответа',
-    en: 'answers',
+    en: 'respuestas',
     jp: '答え'
   },
   'answer3': {
     ru: 'ответов',
-    en: 'answers',
+    en: 'respuestas',
     jp: '答え'
   },
   'boardShortName': {
     ru: 'Короткое имя доски',
-    en: 'Board short name',
+    en: 'Nombre corto del tablon',
     jp: 'ボードの短縮名'
   },
   'boardTitle': {
     ru: 'Название доски',
-    en: 'Board title',
+    en: 'Titulo del tablon',
     jp: 'ボードタイトル'
   },
   'boardDescription': {
     ru: 'Описание доски',
-    en: 'Board description',
+    en: 'Descripcion del tablon',
     jp: 'ボードの説明'
   },
   'enterDescription': {
     ru: 'Ведите описание',
-    en: 'Enter description',
+    en: 'Insertar descripcion',
     jp: '説明を入力してください'
   },
   'boardPosition': {
     ru: 'Позиция доски',
-    en: 'Boards position',
+    en: 'Posicion del tablon',
     jp: 'ボードの位置'
   },
   'save': {
     ru: 'Сохранить',
-    en: 'Save',
+    en: 'Guardar',
     jp: 'セーブ'
   },
   'create': {
     ru: 'Создать',
-    en: 'Create',
+    en: 'Crear',
     jp: '作成する'
   },
   'cancel': {
     ru: 'Отменить',
-    en: 'Cancel',
+    en: 'Cancelar',
     jp: 'キャンセル'
   },
   'noBansYet': {
     ru: 'Пока нет банов',
-    en: 'No bans yet',
+    en: 'Sin bans aún',
     jp: 'まだ禁止はありません'
   },
   'unableToDisplayBans': {
     ru: 'Невозможно отобразить баны',
-    en: 'Unable to display bans',
+    en: 'No se pueden mostrar los bans',
     jp: '禁止を表示できません'
   },
   'signIn': {
     ru: 'Войти',
-    en: 'Sign In',
+    en: 'Iniciar Sesion',
     jp: 'ログイン'
   },
   'enterYourName': {
     ru: 'Введите свой логин',
-    en: 'Enter your username',
+    en: 'Inserte su nombre de usuario',
     jp: 'ユーザー名を入力して下さい'
   },
   'enterPassword': {
     ru: 'Введите пароль',
-    en: 'Enter password',
+    en: 'Inserte su contraseña',
     jp: 'パスワードを入力する'
   },
   'logInAccount': {
     ru: 'Войти в аккаунт',
-    en: 'Login account',
+    en: 'Iniciar Sesion',
     jp: 'ログインアカウント'
   },
   'username': {
     ru: 'Логин',
-    en: 'Username',
+    en: 'Nombre de usuario',
     jp: 'ユーザー名'
   },
   'password': {
     ru: 'Пароль',
-    en: 'Password',
+    en: 'Contraseña',
     jp: 'パスワード'
   },
   'or': {
     ru: 'Или',
-    en: 'Or',
+    en: 'o',
     jp: 'または'
   },
   'ifYouDontHaveAnAccount': {
     ru: 'если у вас нет аккаунта',
-    en: 'if you don\'t have an account',
+    en: 'si aún no tienes una cuenta',
     jp: 'アカウントをお持ちでない場合'
   },
   'signUp': {
     ru: 'Регистрация',
-    en: 'Sign Up',
+    en: 'Registrarse',
     jp: '登録'
   },
   'enterEmail': {
     ru: 'Введите email',
-    en: 'Enter email',
+    en: 'Inserte su email',
     jp: 'メールアドレスを入力して'
   },
   'passwordsNotMatch': {
     ru: 'пароли не совпадают',
-    en: 'Passwords not match',
+    en: 'Las contraseñas no coinciden',
     jp: 'パスワードが一致しません'
   },
   'createYourAccount': {
     ru: 'Создать учетную запись',
-    en: 'Create your account',
+    en: 'Crear tu cuenta',
     jp: 'アカウントを作成'
   },
   'emailAddress': {
     ru: 'Адрес электронной почты',
-    en: 'Email address',
+    en: 'Direccion de Email',
     jp: 'メールアドレス'
   },
   'confirmPassword': {
     ru: 'Подтверждение пароля',
-    en: 'Confirm password',
+    en: 'Confirmar contraseña',
     jp: 'パスワードの確認'
   },
   'createAccount': {
     ru: 'Зарегистрироваться',
-    en: 'Create account',
+    en: 'Crear cuenta',
     jp: 'アカウントを作成する'
   },
   'ifYouAlreadyHaveAnAccount': {
     ru: 'если у вас уже есть аккаунт',
-    en: 'if you already have an account',
+    en: 'si ya tienes una cuenta',
     jp: 'すでにアカウントをお持ちの場合'
   },
   'enterThreadTitle': {
     ru: 'Введите название треда',
-    en: 'Enter thread title',
+    en: 'Insertar titulo de la publicacion',
     jp: 'スレッドのタイトルを入力してください'
   },
   'enterContent': {
     ru: 'Введите содержание',
-    en: 'Enter content',
+    en: 'Insertar contenido',
     jp: 'コンテンツを入力してください'
   },
   'chooseFromList': {
     ru: 'Выберите из списка',
-    en: 'Choose from list',
+    en: 'Elegir de la lista',
     jp: 'リストから選択'
   },
   'boardsNotLoaded': {
     ru: 'Доски не загружены',
-    en: 'Boards not loaded',
+    en: 'Tablones no cargados',
     jp: 'ボードがロードされていません'
   },
   'enterReason': {
     ru: 'Введите причину',
-    en: 'Enter reason',
+    en: 'Insertar razon',
     jp: '理由を入力してください'
   },
   'enterDate': {
     ru: 'Введите дату',
-    en: 'Enter date',
+    en: 'Insertar fecha',
     jp: '日付を入力してください'
   },
   'newThread': {
     ru: 'Новый тред',
-    en: 'New thread',
+    en: 'Nueva Publicacion',
     jp: '新しいスレッド'
   },
-  'threadTitle': {
+  "threadTitle": {
     ru: 'Заголовок треда',
-    en: 'Thread title',
-    jp: 'スレッドタイトル'
+    en: 'Título de la publicacion',
+    jp: 'スレッドタイトル',
   },
-  'content': {
+  "content": {
     ru: 'Содержание',
-    en: 'Content',
-    jp: 'コンテンツ'
+    en: 'Contenido',
+    jp: 'コンテンツ',
   },
-  'chooseABoard': {
+  "chooseABoard": {
     ru: 'Выберите доску',
-    en: 'Choose a board',
-    jp: 'ボードを選択してください'
+    en: 'Selecciona una categoría',
+    jp: 'ボードを選択してください',
   },
-  'select': {
+  "select": {
     ru: 'Выберите',
-    en: 'Select',
-    jp: '選び出す'
+    en: 'Seleccionar',
+    jp: '選び出す',
   },
-  'loading': {
+  "loading": {
     ru: 'Загрузка',
-    en: 'Loading',
-    jp: '荷積'
+    en: 'Cargando',
+    jp: '荷積',
   },
-  'createThread': {
+  "createThread": {
     ru: 'Создать тред',
-    en: 'Create thread',
-    jp: 'スレッドを作成する'
+    en: 'Crear publicacion',
+    jp: 'スレッドを作成する',
   },
-  'answerInThread': {
+  "answerInThread": {
     ru: 'Ответить в тред',
-    en: 'Answer in thread',
-    jp: 'スレッドに答え'
+    en: 'Responder en la publicacion',
+    jp: 'スレッドに答え',
   },
-  'answer': {
+  "answer": {
     ru: 'Ответить',
-    en: 'Answer',
-    jp: '答え'
+    en: 'Responder',
+    jp: '答え',
   },
-  'editAnswer': {
+  "editAnswer": {
     ru: 'Редактировать ответ',
-    en: 'Edit answer',
-    jp: '答えを編集する'
+    en: 'Editar respuesta',
+    jp: '答えを編集する',
   },
-  'edit': {
+  "edit": {
     ru: 'Редактировать',
-    en: 'Edit',
-    jp: '編集'
+    en: 'Editar',
+    jp: '編集',
   },
-  'editThread': {
+  "editThread": {
     ru: 'Редактировать тред',
-    en: 'Edit thread',
-    jp: 'スレッド編集'
+    en: 'Editar publicacion',
+    jp: 'スレッド編集',
   },
-  'banUser': {
+  "banUser": {
     ru: 'Забанить',
-    en: 'Ban user',
-    jp: '禁止'
+    en: 'Bloquear usuario',
+    jp: '禁止',
   },
-  'reason': {
+  "reason": {
     ru: 'Причина',
-    en: 'Reason',
-    jp: '理由'
+    en: 'Motivo',
+    jp: '理由',
   },
-  'banDuration': {
+  "banDuration": {
     ru: 'Продолжительность бана',
-    en: 'Ban duration',
-    jp: '禁止期間'
+    en: 'Duración del bloqueo',
+    jp: '禁止期間',
   },
-  'ban': {
+  "ban": {
     ru: 'Забанить',
-    en: 'Ban',
-    jp: '禁止'
+    en: 'Bloquear',
+    jp: '禁止',
   },
-  'createNew': {
+  "createNew": {
     ru: 'Создать тред',
-    en: 'Create new',
-    jp: '新しく作る'
+    en: 'Crear nuevo',
+    jp: '新しく作る',
   },
-  'messages': {
+  "messages": {
     ru: 'Сообщения',
-    en: 'Messages',
-    jp: 'メッセージ'
+    en: 'Mensajes',
+    jp: 'メッセージ',
   },
-  'rules': {
+  "rules": {
     ru: 'Правила',
-    en: 'Rules',
-    jp: 'ルール'
+    en: 'Reglas',
+    jp: 'ルール',
   },
-  'enterForSearch': {
+  "enterForSearch": {
     ru: 'Введите для поиска',
-    en: 'Enter for search',
-    jp: '検索'
+    en: 'Ingresa para buscar',
+    jp: '検索',
   },
-  'noNotificationYet': {
+  "noNotificationYet": {
     ru: 'Уведомлений пока нет',
-    en: 'No notification yet',
-    jp: 'まだ通知はありません'
+    en: 'Aún no hay notificaciones',
+    jp: 'まだ通知はありません',
   },
-  'deleteAllNotifications': {
+  "deleteAllNotifications": {
     ru: 'Удалить все уведомления',
-    en: 'Delete all notifications',
-    jp: 'すべての通知を削除します'
+    en: 'Borrar todas las notificaciones',
+    jp: 'すべての通知を削除します',
   },
-  'unableToDisplayNotifications': {
+  "unableToDisplayNotifications": {
     ru: 'Невозможно отобразить уведомления',
-    en: 'Unable to display notifications',
-    jp: '通知を表示できません'
+    en: 'No se pueden mostrar las notificaciones',
+    jp: '通知を表示できません',
   },
-  'openProfile': {
+  "openProfile": {
     ru: 'Открыть профиль',
-    en: 'Open profile',
-    jp: 'プロフィールを開く'
+    en: 'Abrir perfil',
+    jp: 'プロフィールを開く',
   },
-  'language': {
+  "language": {
     ru: 'Язык',
-    en: 'Language',
-    jp: '言語'
+    en: 'Idioma',
+    jp: '言語',
   },
-  'toggleTheme': {
+  "toggleTheme": {
     ru: 'Переключить тему',
-    en: 'Toggle theme',
-    jp: 'テーマを切り替える'
+    en: 'Cambiar tema',
+    jp: 'テーマを切り替える',
   },
-  'logout': {
+  "logout": {
     ru: 'Выйти',
-    en: 'Logout',
-    jp: 'ログアウト'
+    en: 'Cerrar sesión',
+    jp: 'ログアウト',
   },
-  'chooseAFile': {
+  "chooseAFile": {
     ru: 'Выберите файл',
-    en: 'Choose a file',
-    jp: 'ファイルを選択してください'
+    en: 'Selecciona un archivo',
+    jp: 'ファイルを選択してください',
   },
-  'choose': {
+  "choose": {
     ru: 'Выбрать',
-    en: 'Choose',
-    jp: '選びとる'
+    en: 'Seleccionar',
+    jp: '選びとる',
   },
-  'fileNotSelected': {
+  "fileNotSelected": {
     ru: 'Файл не выбран',
-    en: 'File not selected',
-    jp: 'ファイルが選択されていません'
+    en: 'Archivo no seleccionado',
+    jp: 'ファイルが選択されていません',
   },
-  'attachFile': {
+  "attachFile": {
     ru: 'Прикрепить файл',
-    en: 'Attach file',
-    jp: 'ファイルを添付する'
+    en: 'Adjuntar archivo',
+    jp: 'ファイルを添付する',
   },
-  'perFile': {
+  "perFile": {
     ru: 'на файл',
-    en: 'per file',
-    jp: 'ファイルごと'
+    en: 'por archivo',
+    jp: 'ファイルごと',
   },
-  'textFieldSupportsMarkdown': {
+  "textFieldSupportsMarkdown": {
     ru: 'Текстовое поле поддерживает Markdown',
-    en: 'Text field supports Markdown',
-    jp: 'テキストフィールドはMarkdownをサポートします'
+    en: 'El campo de texto admite Markdown',
+    jp: 'テキストフィールドはMarkdownをサポートします',
   },
-  'pin': {
+  "pin": {
     ru: 'Закрепить',
-    en: 'Pin',
-    jp: 'ピン'
+    en: 'Fijar',
+    jp: 'ピン',
   },
-  'unpin': {
+  "unpin": {
     ru: 'Открепить',
-    en: 'Unpin',
-    jp: '固定を解除する'
+    en: 'Desafijar',
+    jp: '固定を解除する',
   },
-  'open': {
+  "open": {
     ru: 'Открыть',
-    en: 'Open',
-    jp: '開いた'
+    en: 'Abrir',
+    jp: '開いた',
   },
-  'close': {
+  "close": {
     ru: 'Закрыть',
-    en: 'Close',
-    jp: '閉じる'
+    en: 'Cerrar',
+    jp: '閉じる',
   },
-  'delete': {
+  "delete": {
     ru: 'Удалить',
-    en: 'Delete',
-    jp: 'デリート'
+    en: 'Eliminar',
+    jp: 'デリート',
   },
   'deleteAll': {
     ru: 'Удалить все',
-    en: 'Delete all',
+    en: 'Eliminar todo',
     jp: 'すべて削除'
   },
   'unbanUser': {
     ru: 'Разбанить',
-    en: 'Unban user',
+    en: 'Desbanear usuario',
     jp: '禁止を解除する'
   },
   'report': {
     ru: 'Пожаловаться',
-    en: 'Report',
+    en: 'Reportar',
     jp: '不平を言う'
   },
   'like1': {
     ru: 'лайк',
-    en: 'like',
+    en: 'Me gusta',
     jp: 'いいね'
   },
   'like2': {
     ru: 'лайка',
-    en: 'likes',
+    en: 'Me gustas',
     jp: 'いいね'
   },
   'like3': {
     ru: 'лайков',
-    en: 'likes',
+    en: 'Me gustas',
     jp: 'いいね'
   },
   'banExpires': {
     ru: 'Бан истекает',
-    en: 'Ban expires',
+    en: 'Ban expira',
     jp: '禁止期間が終了します'
   },
   'userBanned': {
     ru: 'Пользователь забанен',
-    en: 'User banned',
+    en: 'Usuario baneado',
     jp: 'ユーザー禁止'
   },
   'unread': {
     ru: 'Непрочитанные',
-    en: 'Unread',
+    en: 'No leido',
     jp: 'すでに読んだ'
   },
   'read': {
     ru: 'Прочитанные',
-    en: 'Read',
+    en: 'Leer',
     jp: '読む'
   },
   'noReportsYet': {
     ru: 'Пока нет жалоб',
-    en: 'No reports yet',
+    en: 'Sin reportes aun',
     jp: 'まだ苦情はありません'
   },
   'unableToDisplayReports': {
     ru: 'Невозможно отобразить жалобы',
-    en: 'Unable to display reports',
+    en: 'No se pueden mostrar los reportes',
     jp: '苦情を表示できません'
   },
   'reportSent': {
     ru: 'Жалоба отправлена',
-    en: 'Report sent',
+    en: 'Reporte enviado',
     jp: '苦情が送信されました'
   },
   'search': {
     ru: 'Поиск',
-    en: 'Search',
+    en: 'Buscar',
     jp: '検索'
   },
   'searchResults': {
     ru: 'Результаты поиска',
-    en: 'Search results',
+    en: 'Resultados de busqueda',
     jp: 'の検索結果'
   },
   'enterYourSearchTerm': {
     ru: 'Введите запрос для поиска',
-    en: 'Enter your search term',
-    jp: '検索語を入力してください'
+    en: 'Ingresa tu término de búsqueda',
+    jp: '検索語を入力してください',
   },
   'noResults': {
     ru: 'Нет результатов',
-    en: 'No results',
-    jp: '結果がありません'
+    en: 'Sin resultados',
+    jp: '結果がありません',
   },
   'unableToDisplaySearchResults': {
     ru: 'Невозможно отобразить результаты поиска',
-    en: 'Unable to display search results',
-    jp: '検索結果を表示できません'
+    en: 'No se pueden mostrar los resultados de búsqueda',
+    jp: '検索結果を表示できません',
   },
   'showMore': {
-    ru: 'Показать полностью',
-    en: 'Show more',
-    jp: '完全に表示'
+    ru: 'Показать больше',
+    en: 'Mostrar más',
+    jp: 'さらに表示',
   },
   'showLess': {
     ru: 'Свернуть',
-    en: 'Show less',
-    jp: '表示を減らす'
+    en: 'Mostrar menos',
+    jp: '表示を減らす',
   },
   'threads': {
     ru: 'Треды',
-    en: 'Threads',
-    jp: 'スレッド'
+    en: 'Publicaciones',
+    jp: 'スレッド',
   },
   'answers': {
     ru: 'Ответы',
-    en: 'Answers',
-    jp: '答え'
+    en: 'Respuestas',
+    jp: '答え',
   },
   'folder': {
     ru: 'Папка',
-    en: 'Folder',
-    jp: 'フォルダ'
+    en: 'Carpeta',
+    jp: 'フォルダ',
   },
   'uploadsFolders': {
     ru: 'Папки загрузок',
-    en: 'Uploads folders',
-    jp: 'フォルダをアップロードします'
+    en: 'Carpetas de carga',
+    jp: 'アップロードフォルダ',
   },
   'manageUploadsFolders': {
     ru: 'Управление папками загрузок',
-    en: 'Manage uploads folders',
-    jp: 'アップロードフォルダを管理する'
+    en: 'Administrar carpetas de carga',
+    jp: 'アップロードフォルダの管理',
   },
   'createNewFolder': {
     ru: 'Создать новую папку',
-    en: 'Create new folder',
-    jp: '新しいフォルダを作成します'
+    en: 'Crear nueva carpeta',
+    jp: '新しいフォルダを作成',
   },
   'file1': {
     ru: 'файл',
-    en: 'file',
-    jp: 'ファイル'
+    en: 'archivo',
+    jp: 'ファイル',
   },
   'file2': {
     ru: 'файла',
-    en: 'files',
-    jp: 'ファイル'
+    en: 'archivos',
+    jp: 'ファイル',
   },
   'file3': {
     ru: 'файлов',
-    en: 'files',
-    jp: 'ファイル'
+    en: 'archivos',
+    jp: 'ファイル',
   },
   'folderShortName': {
     ru: 'Короткое имя папки',
-    en: 'Folder short name',
-    jp: 'フォルダの短縮名'
+    en: 'Nombre corto de la carpeta',
+    jp: 'フォルダの短縮名',
   },
   'folderTitle': {
     ru: 'Название папки',
-    en: 'Folder title',
-    jp: 'フォルダータイトル'
+    en: 'Título de la carpeta',
+    jp: 'フォルダのタイトル',
   },
   'folderDescription': {
     ru: 'Описание папки',
-    en: 'Folder description',
-    jp: 'フォルダの説明'
+    en: 'Descripción de la carpeta',
+    jp: 'フォルダの説明',
   },
   'folderPosition': {
     ru: 'Позиция папки',
-    en: 'Folder position',
-    jp: 'フォルダの位置'
+    en: 'Posición de la carpeta',
+    jp: 'フォルダの位置',
   },
   'noFoldersYet': {
     ru: 'Пока нет папок',
-    en: 'No folders yet',
-    jp: 'まだフォルダはありません'
+    en: 'Aún no hay carpetas',
+    jp: 'まだフォルダはありません',
   },
   'unableToDisplayFolders': {
     ru: 'Невозможно отобразить папки',
-    en: 'Unable to display folders',
-    jp: 'フォルダを表示できません'
+    en: 'No se pueden mostrar las carpetas',
+    jp: 'フォルダを表示できません',
   },
   'unableToDisplayFolder': {
     ru: 'Невозможно отобразить папку',
-    en: 'Unable to display folder',
-    jp: 'フォルダを表示できません'
+    en: 'No se puede mostrar la carpeta',
+    jp: 'フォルダを表示できません',
   },
   'newFile': {
     ru: 'Новый файл',
-    en: 'New file',
-    jp: '新しいファイル'
+    en: 'Nuevo archivo',
+    jp: '新しいファイル',
   },
   'noFilesYet': {
     ru: 'Пока нет файлов',
-    en: 'No files yet',
-    jp: 'まだファイルはありません'
+    en: 'Aún no hay archivos',
+    jp: 'まだファイルはありません',
   },
   'unableToDisplayFiles': {
     ru: 'Невозможно отобразить файлы',
-    en: 'Unable to display files',
-    jp: 'ファイルを表示できません'
+    en: 'No se pueden mostrar los archivos',
+    jp: 'ファイルを表示できません',
   },
   'download1': {
     ru: 'скачивание',
-    en: 'download',
-    jp: 'ダウンロード'
+    en: 'descarga',
+    jp: 'ダウンロード',
   },
   'download2': {
     ru: 'скачивания',
-    en: 'downloads',
-    jp: 'ダウンロード'
+    en: 'descargas',
+    jp: 'ダウンロード',
   },
   'download3': {
     ru: 'скачиваний',
-    en: 'downloads',
-    jp: 'ダウンロード'
+    en: 'descargas',
+    jp: 'ダウンロード',
   },
   'fileTitle': {
     ru: 'Заголовок файла',
-    en: 'File title',
-    jp: 'ファイルタイトル'
+    en: 'Título del archivo',
+    jp: 'ファイルのタイトル',
   },
   'chooseAFolder': {
     ru: 'Выберите папку',
-    en: 'Choose a folder',
-    jp: 'フォルダを選択してください'
+    en: 'Elige una carpeta',
+    jp: 'フォルダを選択してください',
   },
   'yourFile': {
     ru: 'Ваш файл',
-    en: 'Your file',
-    jp: 'あなたのファイル'
+    en: 'Tu archivo',
+    jp: 'あなたのファイル',
   },
   'uploadFile': {
     ru: 'Загрузить файл',
-    en: 'Upload file',
-    jp: 'ファイルをアップロードする'
+    en: 'Subir archivo',
+    jp: 'ファイルをアップロードする',
   },
   'foldersNotLoaded': {
     ru: 'Папки не загружены',
-    en: 'Folders not loaded',
-    jp: 'フォルダーがロードされていません'
+    en: 'Carpetas no cargadas',
+    jp: 'フォルダーがロードされていません',
   },
   'moderateFiles': {
     ru: 'Модерировать файлы',
-    en: 'Moderate files',
-    jp: '中程度のファイル'
+    en: 'Moderar archivos',
+    jp: '中程度のファイル',
   },
   'needToModerate': {
     ru: 'Нужно модерировать',
-    en: 'Need to moderate',
-    jp: 'モデレートする必要があります'
+    en: 'Necesita moderación',
+    jp: 'モデレートする必要があります',
   },
   'download': {
     ru: 'Скачать',
-    en: 'Download',
-    jp: 'ダウンロード'
+    en: 'Descargar',
+    jp: 'ダウンロード',
   },
   'publish': {
     ru: 'Опубликовать',
-    en: 'Publish',
-    jp: '公開する'
+    en: 'Publicar',
+    jp: '公開する',
   },
   'onModeration': {
     ru: 'На модерации',
-    en: 'On moderation',
-    jp: '節度について'
+    en: 'En moderación',
+    jp: '節度について',
   },
   'theFileWillBePublishedAfterModeration': {
     ru: 'Файл будет опубликован после модерации',
-    en: 'The file will be published after moderation',
-    jp: 'ファイルはモデレート後に公開されます'
+    en: 'El archivo se publicará después de la moderación',
+    jp: 'ファイルはモデレート後に公開されます',
   },
   'fileNotFound': {
     ru: 'Файл не найден',
-    en: 'File not found',
-    jp: 'ファイルが見つかりません'
+    en: 'Archivo no encontrado',
+    jp: 'ファイルが見つかりません',
   },
   'file': {
     ru: 'Файл',
-    en: 'File',
-    jp: 'ファイル'
+    en: 'Archivo',
+    jp: 'ファイル',
   },
   'fileDeleted': {
     ru: 'Файл удален',
-    en: 'File deleted',
-    jp: 'ファイルが削除されました'
+    en: 'Archivo eliminado',
+    jp: 'ファイルが削除されました',
   },
   'editFile': {
     ru: 'Редактировать файл',
-    en: 'Edit file',
-    jp: 'ファイル編集'
+    en: 'Editar archivo',
+    jp: 'ファイル編集',
   },
   'copyFileLink': {
     ru: 'Копировать ссылку на файл',
-    en: 'Copy file link',
-    jp: 'ファイルリンクのコピー'
+    en: 'Copiar enlace del archivo',
+    jp: 'ファイルリンクのコピー',
   },
   'linkCopied': {
     ru: 'Ссылка скопирована',
-    en: 'Link copied',
-    jp: 'リンクがコピーされました'
+    en: 'Enlace copiado',
+    jp: 'リンクがコピーされました',
   },
   'failedToCopyLink': {
     ru: 'Ссылка скопирована',
-    en: 'Failed to copy link',
-    jp: 'リンクのコピーに失敗しました'
+    en: 'Fallo al copiar el enlace',
+    jp: 'リンクのコピーに失敗しました',
   },
   'extension': {
     ru: 'Расширение',
-    en: 'Extension',
-    jp: '拡張子'
+    en: 'Extensión',
+    jp: '拡張子',
   },
   'fileSize': {
     ru: 'Размер файла',
-    en: 'File size',
-    jp: 'ファイルサイズ'
+    en: 'Tamaño del archivo',
+    jp: 'ファイルサイズ',
   },
   'comments': {
     ru: 'Комментарии',
-    en: 'Comments',
-    jp: 'コメント'
+    en: 'Comentarios',
+    jp: 'コメント',
   },
   'noCommentsYet': {
     ru: 'Пока нет комментариев',
-    en: 'No comments yet',
-    jp: 'コメントはまだありません'
+    en: 'Aún no hay comentarios',
+    jp: 'コメントはまだありません',
   },
   'enterYourComment': {
     ru: 'Введите комментарий',
-    en: 'Enter your comment',
-    jp: 'コメントを入力してください'
+    en: 'Ingresa tu comentario',
+    jp: 'コメントを入力してください',
   },
   'appointAsAModerator': {
     ru: 'Назначить модератором',
-    en: 'Appoint as a moderator',
-    jp: 'モデレーターとして任命する'
+    en: 'Nombrar como moderador',
+    jp: 'モデレーターに任命する',
   },
   'removeModerator': {
     ru: 'Снять модератора',
-    en: 'Remove moderator',
-    jp: 'モデレーターを削除する'
+    en: 'Eliminar moderador',
+    jp: 'モデレーターを削除する',
   },
   'unableToDisplayProfileInfo': {
     ru: 'Невозможно отобразить информацию профиля',
-    en: 'Unable to display profile info',
-    jp: 'プロファイル情報を表示できません'
+    en: 'No se puede mostrar la información del perfil',
+    jp: 'プロファイル情報を表示できません',
   },
   'noMessagesYet': {
     ru: 'Пока нет сообщений',
-    en: 'No messages yet',
-    jp: 'まだメッセージはありません'
+    en: 'Aún no hay mensajes',
+    jp: 'まだメッセージはありません',
   },
   'unableToDisplayMessages': {
     ru: 'Невозможно отобразить сообщения',
-    en: 'Unable to display messages',
-    jp: 'メッセージを表示できません'
+    en: 'No se pueden mostrar los mensajes',
+    jp: 'メッセージを表示できません',
   },
   'message': {
     ru: 'Сообщение',
-    en: 'Message',
-    jp: 'メッセージ'
+    en: 'Mensaje',
+    jp: 'メッセージ',
   },
   'you': {
     ru: 'Вы',
-    en: 'You',
-    jp: '君は'
+    en: 'Tú',
+    jp: '君は',
   },
   'dialogueWith': {
     ru: 'Диалог с',
-    en: 'Dialogue with',
-    jp: 'との対話'
+    en: 'Diálogo con',
+    jp: 'との対話',
   },
   'enterYourMessage': {
     ru: 'Введите сообщение',
-    en: 'Enter your message',
-    jp: 'メッセージを入力してください'
+    en: 'Ingresa tu mensaje',
+    jp: 'メッセージを入力してください',
   },
   'isTyping': {
     ru: 'печатает',
-    en: 'is typing',
-    jp: '入力中'
+    en: 'está escribiendo',
+    jp: '入力中',
   },
   'noInternetConnection': {
     ru: 'Нет подключения к интернету',
-    en: 'No internet connection',
-    jp: 'インターネットに接続できません'
+    en: 'Sin conexión a internet',
+    jp: 'インターネットに接続できません',
   },
   'karma': {
     ru: 'Карма',
-    en: 'Karma',
-    jp: 'カルマ'
+    en: 'Prestigio',
+    jp: 'カルマ',
   },
   'passwordChange': {
     ru: 'Смена пароля',
-    en: 'Password change',
-    jp: 'パスワードの変更'
+    en: 'Cambio de contraseña',
+    jp: 'パスワードの変更',
   },
   'changePassword': {
     ru: 'Изменить пароль',
-    en: 'Change password',
-    jp: 'パスワードを変更する'
+    en: 'Cambiar contraseña',
+    jp: 'パスワードを変更する',
   },
   'newPassword': {
     ru: 'Новый пароль',
-    en: 'New password',
-    jp: '新しいパスワード'
+    en: 'Nueva contraseña',
+    jp: '新しいパスワード',
   },
   'enterNewPassword': {
     ru: 'Введите новый пароль',
-    en: 'Enter new password',
-    jp: '新しいパスワードを入力してください'
+    en: 'Ingresa la nueva contraseña',
+    jp: '新しいパスワードを入力してください',
   },
   'searchIn': {
     ru: 'Искать в',
-    en: 'Search in',
-    jp: 'で検索'
+    en: 'Buscar en',
+    jp: 'で検索',
   },
   'authorizationsHistory': {
     ru: 'История авторизаций',
-    en: 'Authorizations history',
-    jp: '承認履歴'
+    en: 'Historial de autorizaciones',
+    jp: '承認履歴',
   },
   'userHasNotLoggedInYet': {
     ru: 'Пользователь еще не авторизовывался',
-    en: 'User has not logged in yet',
-    jp: 'ユーザーはまだログインしていません'
+    en: 'El usuario aún no ha iniciado sesión',
+    jp: 'ユーザーはまだログインしていません',
   },
   'unableToDisplayAuthorizationsHistory': {
     ru: 'Невозможно отобразить историю авторизаций',
-    en: 'Unable to display authorizations history',
-    jp: '承認履歴を表示できません'
+    en: 'No se puede mostrar el historial de autorizaciones',
+    jp: '承認履歴を表示できません',
   },
   'deleteAllAnswers': {
     ru: 'Удалить все ответы',
-    en: 'Delete all answers',
-    jp: 'すべての回答を削除する'
+    en: 'Eliminar todas las respuestas',
+    jp: 'すべての回答を削除する',
   },
   'isViewing': {
     ru: 'в треде',
-    en: 'is viewing',
-    jp: 'ウォッチング'
+    en: 'está viendo',
+    jp: 'ウォッチング',
   },
 }
 

@@ -64,7 +64,7 @@ const Header = ({ setMenuState }) => {
           <div className="open_nav" onClick={openNav}>
             <i className={notification ? 'bx bx-menu with_notif' : 'bx bx-menu'} />
           </div>
-          <h1 className="app_name">Forum</h1>
+          <h1 className="app_name">APPUNTES</h1>
         </div>
 
         <ul className="head_act">

@@ -64,12 +64,7 @@ const Dashboard = () => {
 
           <SectionHeader title={Strings.adminDashboard[lang]} />
 
-          {stats.length ? (
-            <ControlledSlider
-              items={stats}
-              card={SlideItem}
-            />
-          ) : null}
+            
 
           <div className="admin__nav">
             {user.role === 3 && (

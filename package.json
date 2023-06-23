@@ -1,7 +1,7 @@
 {
-  "name": "forum-backend",
+  "name": "foro_backend",
   "version": "1.0.0",
-  "author": "xrystalll",
+  "author": "g2",
   "description": "MERN Forum",
   "main": "index.js",
   "scripts": {
